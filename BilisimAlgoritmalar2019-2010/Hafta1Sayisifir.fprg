@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-01 09:57:32 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMDE7IDAyOjIxOjI5IMOWUzsgMzIwMw=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMDE7IDA5OjU3OjMyIMOWUzsgMzIxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Girilen bir say&#305;n&#305;n pozitif, negatif yada s&#305;f&#305;r olup olmad&#305;&#287;&#305;n&#305; kontrol ederek  her bir ihtimal i&#231;in ekrana &#231;&#305;kt&#305; veren algoritmay&#305; yaz&#305;n&#305;z."/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <output expression="&quot;a say&#305;s&#305;n&#305; giriniz:&quot;"/>
+            <input variable="a"/>
+            <if expression="a&lt;0">
+                <then>
+                    <output expression="&quot;a negatif&quot;"/>
+                </then>
+                <else>
+                    <if expression="a&gt;0">
+                        <then>
+                            <output expression="&quot;a pozitif&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;a s&#305;f&#305;ra e&#351;it&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

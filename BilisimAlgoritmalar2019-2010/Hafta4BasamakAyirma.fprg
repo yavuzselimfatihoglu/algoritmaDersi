@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-15 03:39:56 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTU7IDAyOjQ1OjI4IMOWUzsgMzIxMw=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTU7IDAzOjM5OjU2IMOWUzsgMzIxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="3 basamakl&#305; say&#305;n&#305;n basamak toplamlar&#305;n&#305; hesapla"/>
+            <declare name="yuzler, onlar, birler, sayi, uzunluk" type="Integer" array="False" size=""/>
+            <do expression="uzunluk!=3">
+                <input variable="sayi"/>
+                <assign variable="uzunluk" expression="Len(ToString(sayi))"/>
+                <if expression="uzunluk!=3">
+                    <then>
+                        <output expression="&quot;tekrar dene!!3 basamak gir&quot;"/>
+                    </then>
+                    <else>
+                        <assign variable="birler" expression="sayi%10"/>
+                        <assign variable="onlar" expression="(sayi/10)%10"/>
+                        <assign variable="yuzler" expression="sayi/100"/>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;toplam:&quot;&amp;yuzler+onlar+birler"/>
+        </body>
+    </function>
+</flowgorithm>
