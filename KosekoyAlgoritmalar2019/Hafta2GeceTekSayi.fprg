@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-10 07:23:51 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTA7IDA2OjUwOjI2IMOWUzsgMzIwNg=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTA7IDA3OjIzOjUxIMOWUzsgMzIwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, sayac, sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="toplam" expression="0"/>
+            <assign variable="sayi" expression="0"/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <assign variable="ortalama" expression="0"/>
+            <output expression="&quot;0dan farkl&#305; pozitif tam sayi giriniz&quot;"/>
+            <input variable="sayi"/>
+            <while expression="sayi!=0">
+                <if expression="sayi%2==1">
+                    <then>
+                        <assign variable="toplam" expression="toplam+sayi"/>
+                        <assign variable="sayac" expression="sayac+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;0dan farkl&#305; pozitif tam sayi giriniz&quot;"/>
+                <input variable="sayi"/>
+            </while>
+            <output expression="sayac&amp;&quot; tane tek say&#305; ort: &quot;&amp; toplam/sayac"/>
+        </body>
+    </function>
+</flowgorithm>

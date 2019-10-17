@@ -1,0 +1,45 @@
+1- Sayý tahmin oyunu?
+ 0- rasgele deðiþken, sayac=0 degisken
+ 1- tahmin deðiþkeni tanýmla
+ 2- rasgele=rasgele sayý üret (88)
+ 3- tahmin=input (88)
+
+ 4-  tahmin!=rasgele Do/While döngü baþlangýcý
+ 5- eðer tahmin<rasgele
+      "daha büyük deðer gir"
+    else
+      "daha küçük gir"
+ 5.5 sayac=sayac+1
+ 6- tahmin=input
+ 7- döngü sonu
+ 
+ 8- mesaj yazdýr sayac yazdýr
+ 9- son
+
+
+
+2-Kullanýcýnýn 0 girene kadar gireceði pozitif tam sayýlar 
+içinde tek olan sayýlarýn arit. ortalamasý?
+DO-WHILE ILE YAP!!!
+
+1- sayi tamsayý deðiþken,sayac deðiþken
+  toplam(sepet) tamsayý,ortalama real(gerçek)
+  sayi=0 ort=0 toplam=0
+sayi=input
+2- while sayi>0
+3- sayi=input
+4- eðer sayi%2==1 
+    toplam=toplam+sayi (toplam+=sayi)
+    sayac=sayac+1
+5- while sonu
+6- ortalama=toplam/sayac
+7- ortalamayý yazdýr .output(ortalama)
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-03 07:18:42 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMDM7IDAyOjExOjU1IMOWUzsgMzIwMw=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMDM7IDA3OjE4OjQyIMOWUzsgMzIxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="a ve b i&#231;in durumlar&#305; kontrol eden ak&#305;&#351; diyagrm&#305;&#13;&#10;-a&lt;b b b&#252;y&#252;k &#13;&#10;-a&gt;b a b&#252;y&#252;k&#13;&#10;- a e&#351;it b"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="10"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;a b&#252;y&#252;kt&#252;r&quot;"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a">
+                        <then>
+                            <output expression="&quot; b b&#252;y&#252;kt&#252;r&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;a ve b  e&#351;it&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
