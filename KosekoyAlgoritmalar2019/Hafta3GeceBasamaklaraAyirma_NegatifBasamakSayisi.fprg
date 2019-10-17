@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 07:46:12 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDA1OjU4OjAyIMOWUzsgMzIxNA=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDA3OjQ2OjEyIMOWUzsgMzIxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, onlar, yuzler, birler" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; gir:&quot;"/>
+            <declare name="uzunluk" type="Integer" array="False" size=""/>
+            <do expression="uzunluk&lt;4 || sayi&gt;0">
+                <input variable="sayi"/>
+                <assign variable="uzunluk" expression="Len(ToString(sayi))"/>
+                <if expression="uzunluk&lt;4 &amp;&amp; sayi&gt;0">
+                    <then>
+                        <assign variable="birler" expression="sayi%10"/>
+                        <assign variable="onlar" expression="(sayi/10)%10"/>
+                        <assign variable="yuzler" expression="sayi/100"/>
+                        <output expression="sayi&amp;&quot; say&#305;s&#305;n&#305;n basamak de&#287;erleri toplam&#305;:&quot;&amp;(birler+onlar+yuzler)"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;negatif de&#287;er yada basamak de&#287;eri a&#351;&#305;ld&#305;!&quot;"/>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

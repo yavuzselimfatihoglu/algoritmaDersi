@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 06:15:09 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDA1OjU4OjAyIMOWUzsgMzIxNA=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDA2OjE1OjA5IMOWUzsgMzIxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, onlar, yuzler, birler" type="Integer" array="False" size=""/>
+            <output expression="&quot;say&#305; gir:&quot;"/>
+            <input variable="sayi"/>
+            <assign variable="birler" expression="sayi%10"/>
+            <assign variable="onlar" expression="(sayi/10)%10"/>
+            <assign variable="yuzler" expression="sayi/100"/>
+            <output expression="sayi&amp;&quot; say&#305;s&#305;n&#305;n basamak de&#287;erleri toplam&#305;:&quot;&amp;(birler+onlar+yuzler)"/>
+        </body>
+    </function>
+</flowgorithm>

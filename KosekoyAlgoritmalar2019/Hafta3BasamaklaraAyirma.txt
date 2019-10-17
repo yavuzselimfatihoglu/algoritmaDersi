@@ -1,0 +1,8 @@
+1- Girilen maksimum 3 basamaklý pozitif bir tam sayýyýnýn 
+   basamak deðerlerinin toplamlarýný veren algoritmayý yazýnýz?
+
+2- Girilen bir sayýnýn palindrom sayý olup olmadýðýný bulan 
+algoritma?
+
+3- Girilen n basamaklý sayýnýn basamak deðerlerinin kareleri
+toplamý?

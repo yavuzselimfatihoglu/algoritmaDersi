@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-17 04:12:25 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDAyOjAxOjAzIMOWUzsgMzIwMA=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMTc7IDA0OjEyOjI1IMOWUzsgMzIwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="3 basamakl&#305; pozitif  say&#305;y&#305;n&#305;n basamak de&#287;erlerinin toplam&#305;"/>
+            <declare name="sayi, birler, onlar, yuzler" type="Integer" array="False" size=""/>
+            <do expression=""/>
+            <output expression="&quot;say&#305; giriniz:&quot;"/>
+            <input variable="sayi"/>
+            <assign variable="birler" expression="sayi%10"/>
+            <assign variable="onlar" expression="(sayi/10)%10"/>
+            <assign variable="yuzler" expression="sayi/100"/>
+            <output expression="sayi&amp;&quot; say&#305;n&#305;n basamak de&#287;erleri toplam&#305;:&quot;&amp;(yuzler+onlar+birler)"/>
+        </body>
+    </function>
+</flowgorithm>
