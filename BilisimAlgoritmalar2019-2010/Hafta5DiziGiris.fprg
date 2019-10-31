@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-22 04:11:02 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjI7IDAzOjQ3OjE0IMOWUzsgMzIwOQ=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjI7IDA0OjExOjAyIMOWUzsgMzE5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="boyut" type="Integer" array="False" size=""/>
+            <input variable="boyut"/>
+            <declare name="notlar" type="Integer" array="True" size="boyut"/>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="boyut-1" direction="inc" step="1">
+                <assign variable="notlar[i]" expression="Random(100)"/>
+            </for>
+            <comment text="arada i&#351;lemler yap&#305;ld&#305; dizinin son hali&#13;&#10;"/>
+            <for variable="j" start="0" end="boyut-1" direction="inc" step="1">
+                <output expression="&quot;dizi:&quot;&amp;notlar[j]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
