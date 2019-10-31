@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 07:11:10 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDA2OjI0OjE5IMOWUzsgMzIxNA=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDA3OjExOjEwIMOWUzsgMzIwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kelime, harf" type="String" array="False" size=""/>
+            <assign variable="kelime" expression="&quot;&quot;"/>
+            <assign variable="harf" expression="&quot;E&quot;"/>
+            <while expression="harf!=&quot;H&quot;">
+                <output expression="&quot;harf giriniz:&quot;"/>
+                <input variable="harf"/>
+                <if expression="Len(harf)&gt;1">
+                    <then>
+                        <output expression="&quot;tek harf gir&quot;"/>
+                    </then>
+                    <else>
+                        <if expression="harf==&quot;H&quot;">
+                            <then/>
+                            <else>
+                                <assign variable="kelime" expression="kelime&amp;harf"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;biriken kelime:&quot;&amp;kelime"/>
+        </body>
+    </function>
+</flowgorithm>

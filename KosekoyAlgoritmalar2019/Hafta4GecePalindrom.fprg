@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 06:24:16 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDA1OjAxOjA3IMOWUzsgMzIwNQ=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDA2OjI0OjE2IMOWUzsgMzIxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, toplam, kalan, kopyaSayi" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <output expression="&quot;say&#305; giriniz:&quot;"/>
+            <input variable="sayi"/>
+            <assign variable="kopyaSayi" expression="sayi"/>
+            <while expression="sayi&gt;0">
+                <assign variable="kalan" expression="sayi%10"/>
+                <assign variable="toplam" expression="(toplam*10)+kalan"/>
+                <assign variable="sayi" expression="sayi/10"/>
+            </while>
+            <if expression="toplam==kopyaSayi">
+                <then>
+                    <output expression="&quot;say&#305; palindrom&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;say&#305; palindrom de&#287;ildir&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

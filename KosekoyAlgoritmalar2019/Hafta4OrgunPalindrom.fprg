@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 02:46:47 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDAyOjAxOjUxIMOWUzsgMzIwMQ=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMjQ7IDAyOjQ2OjQ3IMOWUzsgMzIxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, toplam, kalan, sayiKopya" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <input variable="sayi"/>
+            <assign variable="sayiKopya" expression="sayi"/>
+            <while expression="sayi&gt;0">
+                <assign variable="kalan" expression="sayi%10"/>
+                <assign variable="toplam" expression="(toplam*10)+kalan"/>
+                <assign variable="sayi" expression="sayi/10"/>
+            </while>
+            <if expression="sayiKopya==toplam">
+                <then>
+                    <output expression="&quot;palindrom say&#305;!&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;palindrom de&#287;il&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
