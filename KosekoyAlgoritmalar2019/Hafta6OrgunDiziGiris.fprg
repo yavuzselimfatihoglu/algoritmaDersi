@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-31 03:30:44 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMzE7IDAyOjA4OjI1IMOWUzsgMzIwNw=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMzE7IDAzOjMwOjQ0IMOWUzsgMzIwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="de&#287;erleri 0-100 aras&#305; olan kullan&#305;c&#305;n&#305;n belirledi&#287;i N elemanl&#305; tamsay&#305; dizi"/>
+            <declare name="n, i, j" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="notlar" type="Integer" array="True" size="n"/>
+            <for variable="i" start="0" end="n-1" direction="inc" step="1">
+                <assign variable="notlar[i]" expression="Random(100)"/>
+            </for>
+            <for variable="j" start="0" end="n-1" direction="inc" step="1">
+                <output expression="notlar[j]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
