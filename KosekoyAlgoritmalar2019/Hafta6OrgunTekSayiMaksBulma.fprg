@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-31 04:44:11 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMzE7IDAzOjM1OjQ3IMOWUzsgMzIxMg=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTAtMzE7IDA0OjQ0OjExIMOWUzsgMzIwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="klavyeden girilen 5 say&#305; i&#231;inde; tek olanlar&#305;n olu&#351;turdu&#287;u &#13;&#10;dizi i&#231;indeki en b&#252;y&#252;k tek say&#305; de&#287;erini veren algoritma?"/>
+            <declare name="tekdizi" type="Integer" array="True" size="5"/>
+            <declare name="j, sayi, sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <for variable="j" start="0" end="4" direction="inc" step="1">
+                <input variable="sayi"/>
+                <if expression="sayi%2==1">
+                    <then>
+                        <assign variable="tekdizi[sayac]" expression="sayi"/>
+                        <assign variable="sayac" expression="sayac+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <comment text="maks bulma!!&#13;&#10;-ilk eleman maks kabul et&#13;&#10;-sonraki elelmanlar&#305; k&#305;yasla&#13;&#10;-b&#252;y&#252;kse maks'a ata&#13;&#10;"/>
+            <declare name="maks" type="Integer" array="False" size=""/>
+            <if expression="sayac&gt;0">
+                <then>
+                    <assign variable="maks" expression="tekdizi[0]"/>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <for variable="i" start="0" end="sayac-1" direction="inc" step="1">
+                        <if expression="tekdizi[i]&gt;maks">
+                            <then>
+                                <assign variable="maks" expression="tekdizi[i]"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <output expression="&quot;Maks de&#287;er:&quot;&amp;maks"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
