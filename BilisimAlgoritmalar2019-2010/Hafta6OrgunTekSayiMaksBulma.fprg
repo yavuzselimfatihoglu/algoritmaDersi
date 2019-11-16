@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-05 01:19:28 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMDU7IDEyOjI5OjM3IMOWUzsgMzIxNg=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMDU7IDAxOjE5OjI4IMOWUzsgMzIxMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="klavyeden girilen 5 say&#305; i&#231;inde; tek olanlar&#305;n olu&#351;turdu&#287;u &#13;&#10;dizi i&#231;indeki en b&#252;y&#252;k tek say&#305; de&#287;erini veren algoritma?"/>
+            <declare name="sayilar" type="Integer" array="True" size="5"/>
+            <declare name="yeniDizi" type="Integer" array="True" size="5"/>
+            <declare name="i, k" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <input variable="sayilar[i]"/>
+            </for>
+            <comment text="dizi i&#231;indeki tek olanlar&#305; yeni diziye aktar&#13;&#10;"/>
+            <declare name="t" type="Integer" array="False" size=""/>
+            <assign variable="t" expression="0"/>
+            <for variable="k" start="0" end="4" direction="inc" step="1">
+                <if expression="sayilar[k]%2==1">
+                    <then>
+                        <assign variable="yeniDizi[t]" expression="sayilar[k]"/>
+                        <assign variable="t" expression="t+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <comment text="maksimum bulma&#13;&#10;"/>
+            <declare name="mak" type="Integer" array="False" size=""/>
+            <assign variable="mak" expression="yeniDizi[0]"/>
+            <if expression="t&gt;0">
+                <then>
+                    <for variable="i" start="1" end="t-1" direction="inc" step="1">
+                        <if expression="mak&lt;yeniDizi[i]">
+                            <then>
+                                <assign variable="mak" expression="yeniDizi[i]"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Maksimum:&quot;&amp;mak"/>
+        </body>
+    </function>
+</flowgorithm>
