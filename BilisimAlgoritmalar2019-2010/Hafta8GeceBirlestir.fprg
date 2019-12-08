@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-28 05:54:10 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMjg7IDA1OjAxOjEzIMOWUzsgMzIwNw=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMjg7IDA1OjU0OjEwIMOWUzsgMzIxMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="klavyeden girilen iki string degeri birlestir() isimli &#13;&#10;fonksiyona g&#246;nderip, bu fonksiyonda iki stringi birle&#351;tirip&#13;&#10;tek string olarak ana programa d&#246;nd&#252;ren ve ana programda yazd&#305;ran&#13;&#10;algoritmay&#305; haz&#305;rlay&#305;n&#305;z?"/>
+            <declare name="a, b, d" type="String" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="d" expression="birlestir(a,b)"/>
+            <output expression="birlestir(a,b)"/>
+        </body>
+    </function>
+    <function name="birlestir" type="String" variable="donus">
+        <parameters>
+            <parameter name="a" type="String" array="False"/>
+            <parameter name="b" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="donus" type="String" array="False" size=""/>
+            <assign variable="donus" expression="&quot;&quot;"/>
+            <assign variable="donus" expression="a&amp;&quot; &quot;&amp;b"/>
+        </body>
+    </function>
+</flowgorithm>

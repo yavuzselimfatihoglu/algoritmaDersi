@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yselim"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-26 03:30:54 &#214;S"/>
+        <attribute name="created" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMjY7IDAyOjA3OjU5IMOWUzsgMzIxOA=="/>
+        <attribute name="edited" value="eXNlbGltOyBERVNLVE9QLTVNNks1OVI7IDIwMTktMTEtMjY7IDAzOjMwOjU0IMOWUzsgMzIxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="klavyeden girilen iki say&#305; ve operat&#246;r i&#231;in gerekli i&#351;lemi ger&#231;ekle&#351;tiren fonksiyon.."/>
+            <declare name="x, y" type="Integer" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="op" type="String" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="op"/>
+            <assign variable="s" expression="islem(x,y,op)"/>
+            <output expression="&quot;sonuc:&quot;&amp;s"/>
+        </body>
+    </function>
+    <function name="islem" type="Real" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+            <parameter name="operator" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Real" array="False" size=""/>
+            <assign variable="sonuc" expression="0"/>
+            <if expression="operator==&quot;+&quot;">
+                <then>
+                    <assign variable="sonuc" expression="x+y"/>
+                </then>
+                <else>
+                    <if expression="operator==&quot;*&quot;">
+                        <then>
+                            <assign variable="sonuc" expression="x*y"/>
+                        </then>
+                        <else>
+                            <if expression="operator==&quot;-&quot;">
+                                <then>
+                                    <assign variable="sonuc" expression="x-y"/>
+                                </then>
+                                <else>
+                                    <assign variable="sonuc" expression="x/y"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
