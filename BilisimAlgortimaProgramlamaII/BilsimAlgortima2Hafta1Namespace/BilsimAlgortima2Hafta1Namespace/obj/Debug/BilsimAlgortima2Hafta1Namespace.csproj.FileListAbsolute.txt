@@ -1,7 +1,0 @@
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\obj\Debug\BilsimAlgortima2Hafta1Namespace.csprojAssemblyReference.cache
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\obj\Debug\BilsimAlgortima2Hafta1Namespace.csproj.CoreCompileInputs.cache
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\bin\Debug\BilsimAlgortima2Hafta1Namespace.exe.config
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\bin\Debug\BilsimAlgortima2Hafta1Namespace.exe
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\bin\Debug\BilsimAlgortima2Hafta1Namespace.pdb
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\obj\Debug\BilsimAlgortima2Hafta1Namespace.exe
-C:\Users\yselim\source\repos\BilsimAlgortima2Hafta1Namespace\BilsimAlgortima2Hafta1Namespace\obj\Debug\BilsimAlgortima2Hafta1Namespace.pdb
