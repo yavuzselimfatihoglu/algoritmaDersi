@@ -1,0 +1,7 @@
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\bin\Debug\BilisimAlgoritmaHafta5Siniflar.exe.config
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\bin\Debug\BilisimAlgoritmaHafta5Siniflar.exe
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\bin\Debug\BilisimAlgoritmaHafta5Siniflar.pdb
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\obj\Debug\BilisimAlgoritmaHafta5Siniflar.csprojAssemblyReference.cache
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\obj\Debug\BilisimAlgoritmaHafta5Siniflar.csproj.CoreCompileInputs.cache
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\obj\Debug\BilisimAlgoritmaHafta5Siniflar.exe
+C:\Users\yselim\source\repos\BilisimAlgoritmaIIHafta5Siniflar\BilisimAlgoritmaHafta5Siniflar\obj\Debug\BilisimAlgoritmaHafta5Siniflar.pdb
