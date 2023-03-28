@@ -1,0 +1,15 @@
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\bin\Debug\net6.0\Hafta2ArrayList.exe
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\bin\Debug\net6.0\Hafta2ArrayList.deps.json
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\bin\Debug\net6.0\Hafta2ArrayList.runtimeconfig.json
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\bin\Debug\net6.0\Hafta2ArrayList.dll
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\bin\Debug\net6.0\Hafta2ArrayList.pdb
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.csproj.AssemblyReference.cache
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.AssemblyInfoInputs.cache
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.AssemblyInfo.cs
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.csproj.CoreCompileInputs.cache
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.dll
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\refint\Hafta2ArrayList.dll
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.pdb
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\Hafta2ArrayList.genruntimeconfig.cache
+C:\Users\bilisim\source\repos\Hafta2ArrayList\Hafta2ArrayList\obj\Debug\net6.0\ref\Hafta2ArrayList.dll
