@@ -1,0 +1,15 @@
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\bin\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.exe
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\bin\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.deps.json
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\bin\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.runtimeconfig.json
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\bin\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.dll
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\bin\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.pdb
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.csproj.AssemblyReference.cache
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.AssemblyInfoInputs.cache
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.AssemblyInfo.cs
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.csproj.CoreCompileInputs.cache
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.dll
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\refint\Hafta5SetGetStaticKopytaKurucuConstReadOnly.dll
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.pdb
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\Hafta5SetGetStaticKopytaKurucuConstReadOnly.genruntimeconfig.cache
+C:\Users\bilisim\source\repos\Hafta5SetGetStaticKopytaKurucuConstReadOnly\obj\Debug\net6.0\ref\Hafta5SetGetStaticKopytaKurucuConstReadOnly.dll
