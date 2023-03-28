@@ -1,0 +1,15 @@
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\bin\Debug\net6.0\Hafta3asiriYuklenmisFonk.exe
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\bin\Debug\net6.0\Hafta3asiriYuklenmisFonk.deps.json
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\bin\Debug\net6.0\Hafta3asiriYuklenmisFonk.runtimeconfig.json
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\bin\Debug\net6.0\Hafta3asiriYuklenmisFonk.dll
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\bin\Debug\net6.0\Hafta3asiriYuklenmisFonk.pdb
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.csproj.AssemblyReference.cache
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.AssemblyInfoInputs.cache
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.AssemblyInfo.cs
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.csproj.CoreCompileInputs.cache
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.dll
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\refint\Hafta3asiriYuklenmisFonk.dll
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.pdb
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\Hafta3asiriYuklenmisFonk.genruntimeconfig.cache
+C:\Users\bilisim\source\repos\Hafta3asiriYuklenmisFonk\Hafta3asiriYuklenmisFonk\obj\Debug\net6.0\ref\Hafta3asiriYuklenmisFonk.dll
